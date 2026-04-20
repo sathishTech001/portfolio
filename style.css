@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+}
+img{
+    width: 10%;
+    height:10%;
+    float: left;
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color:rgb(255, 232, 127);
+}
+.name_info h1,
+.name_info h2 {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    .head-container {
+        flex-direction: column;   /* stack vertically */
+        text-align: center;
+    }
+    .person_info{
+       flex-direction: column;
+        background-color: rgb(253, 236, 160);
+        text-align: center;
+        gap :10px;
+    }
+    li{
+        list-style: none;
+    }
+}
+hr{
+    border:10px dotted gray;
+    border-bottom: 0px;
+    width: 20%;
+}
+
+.person_info{
+    display: flex;
+    gap :30px;
+    background-color: rgb(253, 236, 160);
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.about_info{
+    width: 90%;
+    margin-left: 5%;
+}
+h2{
+    background-color:rgb(253, 236, 160) ;
+    padding-left: 5%;
+}
+p{
+    font-size: large;
+}
+
+.skill_info{
+    width: 90%;
+    margin-left: 5%;
+}
+.skill_info > p{
+    display: inline-block;
+    background-color: rgba(172, 168, 168, 0.47);
+    border: 5px solid rgb(63, 60, 60);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.info{
+    width: 90%;
+    margin-left: 5%;
+}
